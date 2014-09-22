@@ -1,0 +1,18 @@
+;; The first three lines of this file were inserted by DrRacket. They record metadata
+;; about the language level of this file in a form that our tools can easily process.
+#reader(lib "htdp-beginner-reader.ss" "lang")((modname hw02) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #f #t none #f ())))
+#|
+ Alvin Giles
+ Homework 2: defining functions
+ http://www.radford.edu/~itec380/2014fall-ibarland/Homeworks/hw02.html
+ 
+|#
+
+(define (has-suffix? word suffix) )
+
+(check-expect (has-suffix? "fixed" "ed") true)
+(check-expect (has-suffix? "suffix" "") true)
+(check-expect (has-suffix? "weaker" "r") true)
+(check-expect (has-suffix? "" " ") true)
+(check-expect (has-suffix? " " "nt") true)
+(check-expect (has-suffix? "pendant" "ant") true)
